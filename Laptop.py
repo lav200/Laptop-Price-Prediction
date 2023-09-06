@@ -1,11 +1,11 @@
 import streamlit as st
-import pickle
+import joblib
 import sklearn
 import numpy as np
 
 # import the model
-pipe = pickle.load(open('pipe.pkl','rb'))
-df = pickle.load(open('df.pkl','rb'))
+pipe = joblib.load('pipe.joblib')
+df = joblib.load('df.joblib')
 
 page_bg_img  = """
 <style>
