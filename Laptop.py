@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 import sklearn
-pip install pandas
+! pip install pandas
 import numpy as np
 
 # import the model
