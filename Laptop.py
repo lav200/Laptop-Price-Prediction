@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 
 # import the model
-pipe = pickle.load(open('pipe1.pkl','rb'))
+pipe = pickle.load(open('pipe.pkl','rb'))
 df = pickle.load(open('df.pkl','rb'))
 
 page_bg_img  = """
